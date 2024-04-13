@@ -1,25 +1,72 @@
-<html>
-    <head>
-        <link rel="stylesheet" href=
-        "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <title>Portfolio</title>
     <style>
-        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .portfolio {
+            background-color: #fff;
+            border-radius: 10px;
+            padding: 20px;
+            max-width: 600px;
+            width: 400px;
+            text-align: center;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            height: 500px;
+        }
+        .profile-img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            display: block;
+        }
+        .social-icons {
+            margin-top: 50px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #333;
+            font-size: 40px;
+            text-decoration: none;
+        }
+        .name{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .description{
+            text-align: left;
+            margin-bottom: 10px;
+        }
     </style>
-    
-    </head>
-    
-    <body>
-        <h2>Domenico Maione</h2>
-        <div class="card">
-                <img style="float: left;" alt="" src="domenico.jpeg" />
-                <div style="clear: right">
-                    <br>
-                    Sono un ragazzo appassionato di videogames e di musica. <br>
-                    Nel 2023 ho conseguito una laurea triennale di informatica presso la Federico II.
-                </div>
-          </div>
-
-          
-    </body>
-
+</head>
+<body>
+<div class="portfolio">
+    <img class="profile-img" src="photoprofile.jpeg" alt="myPhoto">
+    <h2 class="name">Domenico Maione</h2>
+    <p class="description">Sono appassionato del mondo informatico e mi considero un
+        autodidatta. Ho iniziato a sperimentare con il linguaggio C e mi
+        sono specializzato come sviluppatore Backend. Il mio obiettivo è
+        continuare a crescere e migliorare le mie competenze nel campo
+        dell'informatica.</p>
+    <div class="social-icons">
+        <p>I miei profili social:</p>
+        <a href="https://www.facebook.com/maione.domenico.5"><i class="fab fa-facebook"></i></a>
+        <a href="https://www.linkedin.com/in/domenicomaione/"><i class="fab fa-linkedin"></i></a>
+    </div>
+</div>
+</body>
 </html>
